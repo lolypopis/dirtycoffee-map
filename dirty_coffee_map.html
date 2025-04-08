@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ff335af34992d9f8a43affcf9cefc3e7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ff335af34992d9f8a43affcf9cefc3e7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ff335af34992d9f8a43affcf9cefc3e7 = L.map(
+                "map_ff335af34992d9f8a43affcf9cefc3e7",
+                {
+                    center: [50.0755, 14.4378],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8c52fad1f2cb19231ddfae093e28b33d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ff335af34992d9f8a43affcf9cefc3e7);
+        
+    
+            var marker_5022d3afe0a68c79b035e6db0e9a3133 = L.marker(
+                [50.07578, 14.45956],
+                {}
+            ).addTo(map_ff335af34992d9f8a43affcf9cefc3e7);
+        
+    
+            var icon_8e3fbdf53235d45db49f18f2073193b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_5022d3afe0a68c79b035e6db0e9a3133.setIcon(icon_8e3fbdf53235d45db49f18f2073193b8);
+        
+    
+        var popup_6cd21aaef244f95e021e136415c6089d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69a4a0829333495d339ad66785331cef = $(`<div id="html_69a4a0829333495d339ad66785331cef" style="width: 100.0%; height: 100.0%;">Yes Kafe</div>`)[0];
+            popup_6cd21aaef244f95e021e136415c6089d.setContent(html_69a4a0829333495d339ad66785331cef);
+        
+
+        marker_5022d3afe0a68c79b035e6db0e9a3133.bindPopup(popup_6cd21aaef244f95e021e136415c6089d)
+        ;
+
+        
+    
+    
+            var marker_96a69135dfb026eeffb658e85b8c1aae = L.marker(
+                [50.0774, 14.451],
+                {}
+            ).addTo(map_ff335af34992d9f8a43affcf9cefc3e7);
+        
+    
+            var icon_fa4bd1655ce9bbf305e8590819414dd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_96a69135dfb026eeffb658e85b8c1aae.setIcon(icon_fa4bd1655ce9bbf305e8590819414dd9);
+        
+    
+        var popup_5e90358ec248ce63ef0033aa8f0217f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d53dc0ab24cd16dbaabe224f26e4a9c = $(`<div id="html_4d53dc0ab24cd16dbaabe224f26e4a9c" style="width: 100.0%; height: 100.0%;">Letterpress Café</div>`)[0];
+            popup_5e90358ec248ce63ef0033aa8f0217f6.setContent(html_4d53dc0ab24cd16dbaabe224f26e4a9c);
+        
+
+        marker_96a69135dfb026eeffb658e85b8c1aae.bindPopup(popup_5e90358ec248ce63ef0033aa8f0217f6)
+        ;
+
+        
+    
+    
+            var marker_c00f6b5d434170eb29894a60dff547bf = L.marker(
+                [50.0706, 14.43782],
+                {}
+            ).addTo(map_ff335af34992d9f8a43affcf9cefc3e7);
+        
+    
+            var icon_e3d06975bfd01bda2a4eeeccc21f52dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_c00f6b5d434170eb29894a60dff547bf.setIcon(icon_e3d06975bfd01bda2a4eeeccc21f52dc);
+        
+    
+        var popup_6a14c61f32e2d428346563740ad40d82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d4516900ab7c344fd00e5dc0a716b3e = $(`<div id="html_0d4516900ab7c344fd00e5dc0a716b3e" style="width: 100.0%; height: 100.0%;">Head Shot Coffee</div>`)[0];
+            popup_6a14c61f32e2d428346563740ad40d82.setContent(html_0d4516900ab7c344fd00e5dc0a716b3e);
+        
+
+        marker_c00f6b5d434170eb29894a60dff547bf.bindPopup(popup_6a14c61f32e2d428346563740ad40d82)
+        ;
+
+        
+    
+</script>
+</html>
